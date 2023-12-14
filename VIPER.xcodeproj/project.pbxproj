@@ -110,8 +110,7 @@
 				D818B97F2AFBDC13003C9BB6 /* Extensions */,
 				D8323C642AFA8A8F00DCA32F /* Resources */,
 				D8323C6A2AFA8D7300DCA32F /* Welcome */,
-				D8C2C4E82B172FB800C1B545 /* Button.swift */,
-				D8C2C4EA2B17334600C1B545 /* Label.swift */,
+				D8C2C4EC2B245F9E00C1B545 /* Views */,
 			);
 			path = VIPER;
 			sourceTree = "<group>";
@@ -155,6 +154,15 @@
 				D8323C6F2AFA8E2F00DCA32F /* WelcomeRouter.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		D8C2C4EC2B245F9E00C1B545 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8C2C4E82B172FB800C1B545 /* Button.swift */,
+				D8C2C4EA2B17334600C1B545 /* Label.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

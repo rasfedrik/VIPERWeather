@@ -26,7 +26,13 @@ final class WelcomeViewController: UIViewController {
     
     private var imageForMoveToSecondVCButton: UIImage?
     
-    private var moveToSecondViewControllerButton = Button(name: "Принять")
+    private var moveToSecondViewControllerButton = Button(
+        name: "Открыть",
+        colors: [UIColor.systemRed.withAlphaComponent(0.1).cgColor,
+                 CGColor.init(red: 10, green: 102, blue: 204, alpha: 1)],
+        startPoint: .init(x: 0.0, y: 0.0),
+        endPoint: .init(x: 1.0, y: 1.0)
+    )
     
     private lazy var refreshTemperature = Button(name: "Обновить")
     
@@ -92,6 +98,7 @@ extension WelcomeViewController: WelcomeViewControllerProtocol {
     
     func didLoadImageForMoveToSecondVCButton(imageView: UIImageView?) {
         moveToSecondViewControllerButton.configuration?.image = imageView?.image
+        
     }
     
     
